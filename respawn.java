@@ -19,6 +19,7 @@ public float ifequalsymaeposition;
 
     @Override
     public void repeat() {
+//ifequalsymaeposition example--> -5
         if (myObject.getTransform().getPosition().getY() < ifequalsymaeposition) {
 myObject.getTransform().setPosition(xmae,ymae,zmae);
 }else{
