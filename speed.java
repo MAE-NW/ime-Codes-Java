@@ -8,9 +8,6 @@ import java.math.*;
 import java.io.*;
 import java.nio.*;
 
-/**
- * @Author 
-*/
 public class speed extends Component { 
 public float speed;
     @Override
