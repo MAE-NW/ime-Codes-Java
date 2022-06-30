@@ -13,7 +13,6 @@ import java.nio.*;
 */
 public class stopGame extends Component {
     public float sp;
-    /// Run only once
     @Override
     public void start() {
       //sp = speed game 
