@@ -19,6 +19,10 @@ private Post post;
     @Override
     public void repeat() {
         getted = post.v2+post.var;
+       //results = 119
+      //because 99+20=119
+      // v2 = 99 + var = 20
+
     }
 
    
