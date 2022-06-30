@@ -1,6 +1,5 @@
 package JAVARuntime;
 
-// Useful imports
 import java.util.*;
 import java.text.*;
 import java.net.*;
@@ -8,28 +7,24 @@ import java.math.*;
 import java.io.*;
 import java.nio.*;
 
-/**
- * @Author 
-*/
 public class respawn extends Component { 
-
-    /// Run only once
+public float xmae;
+public float ymae;
+public float zmae;
+public float ifequalsymaeposition;
     @Override
     public void start() {
         
     }
 
-    /// Repeat every frame
     @Override
     public void repeat() {
-        if (myObject.getTransform().getPosition().getY() < - 3) {
-
-myObject.getTransform().setPosition(0,5,-5);
+        if (myObject.getTransform().getPosition().getY() < ifequalsymaeposition) {
+myObject.getTransform().setPosition(xmae,ymae,zmae);
 }else{
 }
     }
 
-    /// Repeat every frame when component or object is disabled
     @Override
     public void disabledRepeat() {
         
