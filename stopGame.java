@@ -22,14 +22,10 @@ public class stopGame extends Component {
       Time.setTimeSpeed(sp);
       
     }
-
-    /// Repeat every frame
     @Override
     public void repeat() {
        
         }
-
-    /// Repeat every frame when component or object is disabled
     @Override
     public void disabledRepeat() {
         
